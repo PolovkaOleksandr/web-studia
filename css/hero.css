@@ -1,11 +1,12 @@
 .hero {
-  background-image: url(./img.png);
+  background-image: url(./img/img.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 118px;
   padding-top: 118px;
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .conainer {
@@ -31,7 +32,7 @@
 .button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -53,12 +54,13 @@
 
 @media (min-width: 770px) {
   .hero {
-    background-image: url(./Header-img-tablet.png);
+    background-image: url(./img/Header-img-tablet.png);
   }
 }
 @media (min-width: 1200px) {
   .hero {
-    background-image: url(./imgd.png);
+    background-image: url(./img/imgd.png);
+    margin-bottom: 60px;
   }
   .title {
     width: 696px;

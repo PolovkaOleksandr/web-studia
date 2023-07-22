@@ -1,8 +1,68 @@
 .perevagy-img{
-    padding: 25px 190px;
+    padding: 25px 100px;
     border-radius: 4px;
     background: #F5F4FA;
+    width: 270px;
+height: 120px;
+@media(max-width:1599px){
+    width: 354px;
+height: 120px;
+padding: 25px 142px;
+}
+@media(max-width:767px){
     width: 450px;
 height: 120px;
-
+padding: 25px 190px;
+}
+}
+.perevagy-l{
+    display: flex;
+/*&:not(:last-child){
+    margin-right: 30px;
+}*/
+@media(max-width:1599px){
+    flex-wrap: wrap;
+}
+@media(max-width:767px){
+    flex-direction: column;
+}
+}
+.perevagy-li{
+    width: 270px;
+    height: 248px;
+    margin-right: 30px;
+@media(max-width:1599px){
+    margin-right: 0px;
+    width: 354px;
+height: 226px;
+}
+@media(max-width:767px){
+    width: 450px;
+height: 226px;
+/*&:not(:last-child){
+    margin-bottom: 30px;
+}*/
+}
+}
+.perevagy{
+    width: 1170px;
+height: 248px;
+margin:  0 auto;
+@media(max-width:1599px){
+    width: 738px;
+height: 480px;
+justify-content: center;
+}
+@media(max-width:767px){
+    width: 450px;
+height: 994px;
+}
+}
+.per-tablet{
+    @media(max-width:1599px){
+        margin-right: 30px;
+    }
+    @media(max-width:767px){
+        margin-right: 0;
+    }
 }

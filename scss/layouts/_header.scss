@@ -27,6 +27,10 @@
   
     color: black;
   }
+  .header-gmailandtell-div{
+    display: none;
+  }
+  
   
   .WEB {
     color: #2196f3;
@@ -66,6 +70,9 @@
     .burger {
       display: none;
     }
+    .header-gmailandtell-div{
+      display: block;
+    }
   
     .logo {
       margin-right: 87px;
@@ -87,9 +94,7 @@
     .nav__list--item:not(:last-child) {
       margin-right: 50px;
     }
-    .header-gmailandtell-div{
-      display: none;
-    }
+    
     .contacts-item:not(:last-child) {
       margin-bottom: 10px;
     }
