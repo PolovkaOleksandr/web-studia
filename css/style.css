@@ -68,7 +68,7 @@ body {
   background-color: #ffffff;
 }
 
-/*                               */
+/*-------------------------------*/
 .header {
   width: 480px;
   height: 60px;
@@ -258,7 +258,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*                               */
+/*-------------------------------*/
 .hero {
   background-image: url(./img/img.png);
   background-position: center;
@@ -335,7 +335,7 @@ body {
     color: white;
   }
 }
-/*                               */
+/*-------------------------------*/
 .perevagy-img {
   padding: 25px 100px;
   border-radius: 4px;
@@ -391,9 +391,9 @@ body {
   .perevagy-li {
     width: 450px;
     height: 226px;
-  }
-  .perevagy-li:not(:last-child) {
-    margin-bottom: 30px;
+    /*&:not(:last-child){
+        margin-bottom: 30px;
+    }*/
   }
 }
 
@@ -426,3 +426,90 @@ body {
     margin-right: 0;
   }
 }
+
+/*-------------------------------*/
+.what-title {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.what-list {
+  display: flex;
+}
+
+.what-subtitle {
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+}
+
+.dd {
+  background-image: url(./img/dd.png);
+}
+
+.md {
+  background-image: url(./img/md.png);
+}
+
+.dr {
+  background-image: url(./img/dr.png);
+}
+
+.what-item {
+  width: 370px;
+  height: 294px;
+  padding-top: 224px;
+}
+.what-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.dds {
+  padding: 27px 107px;
+}
+
+.mds {
+  padding: 27px 113px;
+}
+
+.drs {
+  padding: 27px 95px;
+}
+
+.what {
+  margin-left: 215px;
+}
+@media (max-width: 1599px) {
+  .what {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .what {
+    display: none;
+  }
+}
+
+/*                               */
+.what-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*                               */
