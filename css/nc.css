@@ -1,0 +1,272 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    background-image: url(./img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-bottom: 118px;
+    padding-top: 118px;
+
+    text-align: center;
+  }
+  .conainer {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .title {
+    min-width: 360px;
+    height: 84px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    margin: 0 auto;
+  }*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.team-list-item {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  height: 622px;
+  width: 450px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #FFFFFF;
+}
+@media (min-width: 767px) {
+  .team-list-item {
+    height: 536px;
+    width: 354px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.img {
+  color: black;
+}
+
+.social-media {
+  display: flex;
+  margin-left: 115px;
+  margin-right: 74px;
+  margin-bottom: 24px;
+}
+@media (min-width: 767px) {
+  .social-media {
+    margin-left: 74px;
+    margin-right: 74px;
+  }
+}
+
+.social-media-list-item {
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  border-radius: 50%;
+}
+.social-media-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-media-list-item:hover {
+  background-color: rgb(33, 150, 243);
+}
+@media (min-width: 767px) {
+  .social-media-list-item {
+    height: 44px;
+    width: 44px;
+    padding: 12px;
+  }
+}
+
+.pi1 {
+  margin-left: 161px;
+}
+@media (min-width: 767px) {
+  .pi1 {
+    margin-left: 113px;
+  }
+}
+
+.pi2 {
+  margin-left: 173px;
+}
+@media (min-width: 767px) {
+  .pi2 {
+    margin-left: 125px;
+  }
+}
+
+.pi3 {
+  margin-left: 160px;
+}
+@media (min-width: 767px) {
+  .pi3 {
+    margin-left: 112px;
+  }
+}
+
+.pi4 {
+  margin-left: 153px;
+}
+@media (min-width: 767px) {
+  .pi4 {
+    margin-left: 105px;
+  }
+}
+
+.pr1 {
+  margin-left: 160px;
+}
+@media (min-width: 767px) {
+  .pr1 {
+    margin-left: 112px;
+  }
+}
+
+.pr2 {
+  margin-left: 152px;
+}
+@media (min-width: 767px) {
+  .pr2 {
+    margin-left: 104px;
+  }
+}
+
+.pr3 {
+  margin-left: 187px;
+}
+@media (min-width: 767px) {
+  .pr3 {
+    margin-left: 139px;
+  }
+}
+
+.pr4 {
+  margin-left: 182px;
+}
+@media (min-width: 767px) {
+  .pr4 {
+    margin-left: 134px;
+  }
+}
+
+.miha {
+  margin-bottom: 30px;
+  height: 460px;
+  width: 450px;
+}
+@media (min-width: 767px) {
+  .miha {
+    height: 374px;
+    width: 354px;
+  }
+}
+
+.nasha-comanda {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 30px;
+  margin-left: 138px;
+}
+@media (min-width: 767px) {
+  .nasha-comanda {
+    margin-left: 282px;
+  }
+}
+@media (min-width: 1200px) {
+  .nasha-comanda {
+    margin-left: 668px;
+  }
+}
+
+.pi {
+  margin-bottom: 10px;
+}
+
+.pr {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 767px) {
+  .team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 767px) {
+  .tli1 {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 767px) {
+  .tli3 {
+    margin-left: 15px;
+  }
+}
